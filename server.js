@@ -1,6 +1,8 @@
 
 const express = require('express');
 // we'll use morgan to log the HTTP layer
+
+const router = express.Router();
 const morgan = require('morgan');
 // we'll use body-parser's json() method to 
 // parse JSON data sent in requests to this app
